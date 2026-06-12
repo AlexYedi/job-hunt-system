@@ -3,20 +3,19 @@
 <project_architecture>
 ## Job-Hunt System — Full-Stack GTM Engineering transition
 
+### Status: RESET — 2026-06-11
+The prior plan (84KB roadmap + a 24-week, 6-milestone Linear sprint) was over-built out of the gate and never executed — every funnel issue sat in Backlog while build energy went to companion repos. Deliberately reset to a clean slate to **plan small and build slowly/incrementally**. The old strategy docs are preserved in `archive/` as raw material to mine, not as the active plan. The active plan now lives in **`PLAN.md`** (currently a skeleton — fill it collaboratively, one small step at a time).
+
 ### Purpose
-Strategic doc-repo for Alex's transition from "Lead Enterprise Account Director" → **Clay-tier Full-Stack GTM Engineer** (the archetype Clay calls a "GTME"). This repo holds the roadmap, skills map, and cross-mapping between Alex's existing builds and the target role's requirements. It is **NOT** a code repo — every artifact here is analysis, planning, or positioning material.
+Strategic doc-repo for Alex's transition from "Lead Enterprise Account Director" → **Clay-tier Full-Stack GTM Engineer** (the archetype Clay calls a "GTME"). It is **NOT** a code repo — every artifact here is analysis, planning, or positioning material. Builds live in the companion repos.
 
-### Authoritative docs (read on demand, do NOT load eagerly)
+### Docs (read on demand, do NOT load eagerly)
 
-1. **`00_full_stack_gtm_roadmap.md`** (V1.1, 84KB) — the master document.
-   - **Part 1 — Coursework:** 9 skill domains and sequencing required for the Full-Stack GTM Pro archetype. Organized by capability domain, with depth targets, resources, benchmarks.
-   - **Part 2 — Job-hunt funnel:** the search itself run as an AI-native full-funnel GTM motion (8 stages: market mapping → positioning → portfolio → outbound → interview prep → evaluation → offer/close → pre-start ramp).
-   - Includes Clay's hiring mental model, the three-rung maturity model (data foundation → modeling → activation), and tier-1 target company list (Intercom, Canva, Notion, Anthropic, Ramp, Verkada, Rippling).
-2. **`01_gtm_agents_skills_map.md`** (24KB) — the `gtm-agents` marketplace catalog (243 skills across 67 plugins). Used as the internalize-targets list for building GTME fluency.
-3. **`02_cross_map_pipeline_to_roadmap.md`** (13KB) — the coverage matrix between Empire State events pipeline builds and the 9 coursework domains + 8 funnel stages. **Read this for the honest "you're farther along than you think" assessment.**
-4. **`Role_Descriptions/`** — the five canonical Clay JDs (Forward Deployed GTM Engineer, Head of GTM Architecture, Product Marketing, Analytics Engineer, Enterprise Growth Strategist-CS) plus other reference role descriptions.
+1. **`PLAN.md`** — the active, intentionally-minimal plan. Start here. Do not let it balloon back into a 24-week megaplan.
+2. **`Role_Descriptions/`** — the five canonical Clay JDs (Forward Deployed GTM Engineer, Head of GTM Architecture, Product Marketing, Analytics Engineer, Enterprise Growth Strategist-CS) plus other reference role descriptions. Still live.
+3. **`archive/`** — prior thinking, retained for reuse only. `00_full_stack_gtm_roadmap.md` (the old master, incl. the named tier-1 target list + Clay assessment rubric), `01_gtm_agents_skills_map.md`, `02_cross_map_pipeline_to_roadmap.md` (the honest "farther along than you think" cross-map). Mine for specifics (positioning language, named humans, rubric); do **not** treat as the current plan.
 
-### Locked positioning (the thesis to keep returning to)
+### Locked positioning (the thesis to keep returning to — survives the reset)
 
 - **You are Clay's archetypal hire**, not "an AE learning to code." 12+ years enterprise B2B SaaS closing the workflow Clay automates, now building agentic systems against that same thesis.
 - **Three-rung sequence is non-negotiable:** data foundation → modeling → activation. "Most companies stumble on the first rung" — that's the market truth AND the interview punchline.
@@ -31,15 +30,16 @@ Strategic doc-repo for Alex's transition from "Lead Enterprise Account Director"
 
 ### Project-specific guardrails
 
+- **Plan small. Build slowly and incrementally.** The reset exists because the last cycle over-planned and over-built. One small step, shipped and validated, beats another megaplan. If a planning artifact starts sprawling, that's the failure mode recurring — stop and cut.
 - **Do not treat this repo as a build queue.** It's the strategy layer. Builds happen in Empire State and gtm-os.
-- **Reframing > restarting.** Per the cross-map: most "missing" coursework domains are actually covered by existing builds; what's missing is the measurement layer and the right labels. Default to reframing what exists before proposing new builds.
-- **Honest assessment over flattering pitch.** When sizing the gap to a target role, lead with the honest read in `02_cross_map_pipeline_to_roadmap.md` — "the build is mostly there, the framing is the bottleneck" — not the inflated version.
-- **Tier-1 target list is not generic.** When discussing target companies, prefer the named-human, named-team granularity from the roadmap over generic "AI-native company" framing.
+- **Beware planning-as-avoidance.** The binding constraint in this hunt is reps in the funnel (reaching real humans), not more strategy. Prefer the next exposure-bearing action over refining the plan.
+- **Honest assessment over flattering pitch.** State confidence levels plainly; lead with the honest read, not the inflated one.
+- **Tier-1 target list is not generic.** When discussing target companies, prefer named-human, named-team granularity (see `archive/00_full_stack_gtm_roadmap.md`) over generic "AI-native company" framing.
 </project_architecture>
 
 <standing_context_overlay>
 - This repo is the **strategy layer** for the job-hunt motion. Build artifacts live in companion repos (Empire State, gtm-os). When discussing portfolio work, link from here to there rather than duplicating.
-- **Default to written artifacts** when shaping deliverables for this hunt — exec briefs, narrative writeups, R1-R5 + N1-N3 portfolio pieces (per the cross-map's labeling). Decks are secondary.
-- Active priorities per the roadmap: closing the **measurement-layer gap** (Domain 4 / R2 dashboard) is the single highest-leverage move. Don't ship a sixth content skill before that exists (Clay red-flag #4).
-- Job-hunt funnel Stages 1 (Market Mapping), 3 (Portfolio), and 4 (Outbound) are already operational via the events pipeline. Stages 2, 5, 6, 7, 8 are the open territory.
+- **Default to written artifacts** when shaping deliverables for this hunt — exec briefs, narrative writeups, positioning pieces. Decks are secondary.
+- **The active plan is `PLAN.md`** and it is intentionally minimal. Linear is the source of truth for what's open; do not recreate a sprawling sprint there without an explicit decision to.
+- Post-reset, treat funnel stage coverage as **unproven** until re-validated — the prior "Stages 1/3/4 operational" claim was aspirational and never executed.
 </standing_context_overlay>
